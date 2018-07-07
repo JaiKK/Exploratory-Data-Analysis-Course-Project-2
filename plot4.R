@@ -25,18 +25,4 @@ plot(x= tmp$year,
      main = "Yearwise Emission of PM2.5 (Tons) from Coal Sources",
      type = "l")
 
-
-# ggplot(tmp) +
-#   geom_point(aes(x= year, y = Total, colour = factor(type))) +
-#   geom_line(aes(x= year, y = Total, colour = factor(type))) +
-#   xlab("Year wise") +
-#   ylab("Totle Emission / Type wise") +
-#   ggtitle("Type and Year wise Emission (Tons) in Baltimore City") +
-#   theme_minimal() +
-#   theme(
-#     text = element_text(size = 12),
-#     axis.text.x = element_text(angle = 90),
-#     plot.title = element_text(hjust = 0.5)
-#     )
-
 dev.off()
